@@ -34,7 +34,7 @@ public class DemoApplication {
 			offsetDateTime = date.toInstant().atOffset(ZoneOffset.UTC);
 			date2 = new Date(1439498943);
 			offsetDateTime2 = date2.toInstant().atOffset(ZoneOffset.UTC);
-			Student dva = new Student(2018, offsetDateTime, offsetDateTime2, 5);
+			Student dva = new Student(2018, offsetDateTime, offsetDateTime2, 4);
 			studenti.add(dva);
 			date = new Date(1436380943);
 			offsetDateTime = date.toInstant().atOffset(ZoneOffset.UTC);
